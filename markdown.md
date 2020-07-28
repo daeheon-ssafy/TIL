@@ -1,0 +1,111 @@
+## 마크다운(MakrDown)
+
+> 마크다운은 일반 텍스트 기반의 경량 마크업 언어이다.
+
+
+
+### 1. 문법
+
+#### 1.1 Header
+
+> Header는 제목을 표현하는데 많이 사용한다. 
+
+h1부터 h6까지 사용할 수 있다.
+
+# H1 태그입니다.
+
+## H2 태그입니다.
+
+### H3 태그입니다.
+
+### H4 태그입니다,
+
+#### H5 태그입니다.
+
+###### H6 태그입니다.
+
+
+
+#### 1.2 List
+
+> 목록을 나열할 때 사용하는 리스트입니다. 순서가 필요한 필요없는 항목으로 구분할 수 있습니다.
+
+* 순서가 있는 목록
+
+  1. 첫번째 리스트
+  2. 두번째 리스트
+
+  
+
+* 순서가 없는 목록
+
+  * 순서가 없는 리스트
+  * 순서가 없어요.
+
+
+
+#### 1.4 코드블럭
+
+- inline
+
+  - `random` 백틱으로 앞뒤로 감싸주면 된다.
+
+- block
+
+  - ```python
+    import random
+    random.choice(range(5))
+    ```
+
+  - 백틱을 3개 연속으로 누르고 enter를 누르면 된다.
+
+
+
+#### 1.5 이미지 넣기
+
+![git 이미지](data:image/png;base64,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)
+
+
+
+#### 1.6 링크
+
+[구글](https://google.com)
+
+!가있으면 이미지 넣기 없으면 링크 넣기
+
+
+
+#### 1.7 테이블
+
+| 가   | 나   | 다   |
+| ---- | ---- | ---- |
+|      |      |      |
+
+
+
+
+
+#### 1.8 인용문
+
+> 
+
+
+
+#### 1.9 수평문
+
+***
+
+---
+
+ 
+
+### 1.10 강조
+
+이텔릭 체 *가나다*
+
+굵은 글씨 __가나다__
+
+취소선 ~~가나다~~
+
+
+
